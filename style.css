@@ -63,7 +63,7 @@ header h4 a{
 }
 .photo{
     width: fit-content;
-    background-image: url(/imges/WhatsApp\ Image\ 2024-12-18\ at\ 12.29.49\ PM.jpeg);
+    background-image: url(/WhatsApp\ Image\ 2024-12-18\ at\ 12.29.49\ PM.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -255,10 +255,10 @@ main{
 
  
 .p-one{
-    background-image: url(/imges/jigar-panchal-W8HlRx3EqqE-unsplash.jpg);
+    background-image: url(/jigar-panchal-W8HlRx3EqqE-unsplash.jpg);
 }
 .p-two{
-    background-image: url(/imges/jigar-panchal-FXCqKDGvxCM-unsplash.jpg);
+    background-image: url(/jigar-panchal-FXCqKDGvxCM-unsplash.jpg);
 
 
 }
@@ -320,7 +320,7 @@ main{
     border-radius: 100px;
     margin: 20px;
     background-color: rgb(233, 146, 66);
-    background-image: url(/imges/WhatsApp\ Image\ 2024-12-18\ at\ 12.29.49\ PM.jpeg);
+    background-image: url(/WhatsApp\ Image\ 2024-12-18\ at\ 12.29.49\ PM.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
