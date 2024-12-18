@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    padding: 20px 0px;
+    background: linear-gradient(90deg, rgb(247, 108, 58), rgb(116, 45, 20));
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.in-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.in-header a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px;
+    font-size: 15px;
+}
+header h4 a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+.intro-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin: 30px 0px;
+}
+.photo-border{
+    border: solid 3px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    padding: 15px;
+    border-radius: 250px;
+
+}
+.photo{
+    width: fit-content;
+    background-image: url(/imges/WhatsApp\ Image\ 2024-12-18\ at\ 12.29.49\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 125px;
+    width: 250px;
+    height: 250px;
+}
+
+.intro-wrapper h2{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: left;
+}
+.intro-wrapper h6{
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px 0px;
+}
+.contact-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+}
+.contact-wrapper h6 img{
+    width: 30px;
+    margin: 10px;
+}
+.contact-wrapper h6{
+    color: white;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    line-height: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.contact-wrapper h6 a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: rgb(245, 243, 243);
+    width: 60%;
+}
+.skills h1{
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    margin: 20px 0px;
+    width: 100%;
+}
+.skills-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.skill{
+    width: 10%;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.skill:hover{
+    background-color: rgb(230, 230, 230);
+    transition: all ease-in-out 0.9s;
+}
+.skill img{
+    width: 40px;
+
+}
+.skill h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: grey;
+    text-align: center;
+    margin: 10px 0px;
+}
+.skill h5:hover{
+    color: rgb(255, 255, 255);
+    transition: all ease-in-out 0.9s;
+}
+.experience-wrapper-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.experience-wrapper{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 90%;
+    padding: 40px;
+    margin: 40px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+.experience-wrapper img{
+    width: 40px;
+    margin-left: 30px;
+}
+.experience-wrapper h4{
+    font-size: 18px;
+    text-align: left;
+    display: flex;
+    flex-flow: row;
+    justify-content: first baseline;
+    align-items: center;
+    color: grey;
+}
+.experience-wrapper ul{
+    margin: 20px 0px;
+}
+.experience-wrapper ul li{
+    margin: 20px 0px;
+    list-style: circle;
+    color: grey;
+    font-size: 16px;
+    line-height: 22px;
+}
+.education{
+    margin-top: 0;
+}
+.education-wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: first baseline;
+    justify-content: first baseline;
+    margin: 15px 0px;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.education-wrapper h3 img{
+    width: 40px;
+    margin-left: 30px;
+}
+.education-wrapper h3{
+    font-size: 15px;
+    color: grey;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: first baseline;
+    margin: 15px 0px;
+}
+.project-wrapper{
+    width: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+ 
+.p-one{
+    background-image: url(/imges/jigar-panchal-W8HlRx3EqqE-unsplash.jpg);
+}
+.p-two{
+    background-image: url(/imges/jigar-panchal-FXCqKDGvxCM-unsplash.jpg);
+
+
+}
+.p-one, .p-two{
+    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+    width: 80%; 
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: end;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+
+.projects ul li{
+    color: rgb(216, 216, 216);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 15px;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+.projects a{
+    color: rgb(216, 216, 216);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 0px;
+    font-size: 19px;
+}
+.projects a:hover{
+    color: rgb(170, 22, 22);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 0px;
+    font-size: 20px;
+    transition: all ease-in-out 0.2s;
+}
+.me-summary{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    color: grey;
+}
+.photo-wrapper{
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    align-items: end;
+    width: 100%;
+    margin: 30px 0px;
+}
+.photo-two{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+    background-color: rgb(233, 146, 66);
+    background-image: url(/imges/WhatsApp\ Image\ 2024-12-18\ at\ 12.29.49\ PM.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 2px orange;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 10px 0px;
+}
+footer h6{
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+footer h6 a{
+    color: orange;
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
